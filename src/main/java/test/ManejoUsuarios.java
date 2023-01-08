@@ -22,7 +22,7 @@ public class ManejoUsuarios {
             Usuario usuarioNuevo = new Usuario("unUsuario", "contaseña");
             usuarioDao.insertar(usuarioNuevo);
             
-            Usuario modificar = new Usuario(4, "maria magdalena", "unaContraseña");
+            Usuario modificar = new Usuario(4, "maria magdalena necesito que esto entre al rollback por favor", "unaContraseña");
             usuarioDao.actualizar(modificar);
             
             conexion.commit();
